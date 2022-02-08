@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
-/*
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -72,6 +67,21 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+.screencap {
+    height: 250px;
+    width: 190px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px grey;
+    transition: 300ms ease-in-out;
+}
+.screencap:hover{
+    transform: scale(1.05);
+}
+.screencap:active{
+    transform: scale(0.95);
 }
 
 /* Row */
