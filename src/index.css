@@ -35,7 +35,7 @@ body, ul {
     padding: 10px 0;
 }
 
-.header--name, .nav--list, .main--title, .project-card--description > h3 {
+.header--name, .nav--list, .main--title, .project-card--description > h3, .footer {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -169,13 +169,14 @@ body, ul {
 }
 
 .footer-background {
-    height: 200px;
+    height: 100px;
     margin-top: auto;
     background-color: rgb(37, 37, 37);
 }
 
 .footer {
-    text-align: start;
+    text-align: center;
+    font-size: 1.3em;
     margin: 0 auto;
     padding: 25px 50px;
     max-width: 1440px;

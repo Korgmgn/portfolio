@@ -7,12 +7,12 @@ function Projects() {
         <div className="main--projects">
 
             <figure className="project-card" >
-                <a href="https://korgmgn.github.io/Openclassroom_Reservia/" target="_blank" rel='noreferrer'>
+                <a href="https://korgmgn.github.io/Openclassroom_Reservia/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img"  src={require("../images/capture_reservia.png")} alt="projet intégration de maquette"/>
                 </a>
                 <figcaption className="project-card--description">
                     <div className="project-card--description__github-icon">
-                        <a href="https://github.com/Korgmgn/Openclassroom_Reservia" title="Repo Github du projet" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                        <a href="https://github.com/Korgmgn/Openclassroom_Reservia" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Réservia</h3>                                    
                     <p>Intégration de maquette d'un site de réservation en ligne.</p>
@@ -22,12 +22,12 @@ function Projects() {
             </figure>
 
             <figure className="project-card" >
-                <a href="https://korgmgn.github.io/Openclassrooms_OhMyFood/" target="_blank" rel='noreferrer'>
+                <a href="https://korgmgn.github.io/Openclassrooms_OhMyFood/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_ohmyfood.png")} alt="projet animations css"/>
                 </a>
                 <figcaption className="project-card--description">
                     <div className="project-card--description__github-icon">
-                        <a href="https://github.com/Korgmgn/Openclassrooms_OhMyFood" title="Repo Github du projet" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                        <a href="https://github.com/Korgmgn/Openclassrooms_OhMyFood" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>OhMyFood</h3>
                     <p>Intégration de maquette d'un site culinaire</p>
@@ -37,12 +37,12 @@ function Projects() {
             </figure>
 
             <figure className="project-card" >
-                <a href="https://korgmgn.github.io/Openclassrooms_ChouetteAgence/" target="_blank" rel='noreferrer'>
+                <a href="https://korgmgn.github.io/Openclassrooms_ChouetteAgence/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_chouetteagence.png")} alt="projet optimisation SEO, performances et accessibilité"/>
                 </a>
                 <figcaption className="project-card--description">
                     <div className="project-card--description__github-icon">
-                        <a href="https://github.com/Korgmgn/Openclassrooms_ChouetteAgence" title="Repo Github du projet" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                        <a href="https://github.com/Korgmgn/Openclassrooms_ChouetteAgence" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Chouette Agence</h3>
                     <p>Optimisation d'un site vitrine d'agence web (Fourni par Openclassrooms)</p>
@@ -52,12 +52,12 @@ function Projects() {
             </figure>
 
             <figure className="project-card" >
-                <a href="https://kanap-hz.netlify.app/index.html" target="_blank" rel='noreferrer'>
+                <a href="https://kanap-hz.netlify.app/index.html" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_kanap.png")} alt="projet intégration de fonctionnalités pour site web dynamique"/>
                 </a>
                 <figcaption className="project-card--description">
                     <div className="project-card--description__github-icon">
-                        <a href="https://github.com/Korgmgn/Openclassrooms_Kanap" title="Repo Github du projet" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                        <a href="https://github.com/Korgmgn/Openclassrooms_Kanap" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Kanap</h3>
                     <p>Création des fonctionnalités pour un site marchand dynamique (Design et API fournis par Openclassrooms)</p>
@@ -67,12 +67,12 @@ function Projects() {
             </figure>
             
             <figure className="project-card" >
-                <a href="https://piiquante-hz.netlify.app/" target="_blank" rel='noreferrer'>
+                <a href="https://piiquante-hz.netlify.app/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_piiquante.png")} alt="projet création d'API REST, opérations CRUD et mongoDB"/>
                 </a>
                 <figcaption className="project-card--description">
                     <div className="project-card--description__github-icon">
-                        <a href="https://github.com/Korgmgn/Openclassrooms_Piiquante" title="Repo Github du projet" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                        <a href="https://github.com/Korgmgn/Openclassrooms_Piiquante" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Piiquante</h3>
                     <p>Création d'une API pour une application permettant aux utilisateurs de mettre en ligne leurs sauces piquantes favorites (Frontend fourni par Openclassrooms)</p>
@@ -82,12 +82,12 @@ function Projects() {
             </figure>
 
             <figure className="project-card" >
-                <a href="https://groupomania-hz.netlify.app/" target="_blank" rel='noreferrer'>
+                <a href="https://groupomania-hz.netlify.app/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_groupomania.png")} alt="projet fullstack avec framework frontend, création d'API et base de données SQL"/>
                 </a>
                 <figcaption className="project-card--description">
                     <div className="project-card--description__github-icon">
-                        <a href="https://github.com/Korgmgn/Openclassrooms_Groupomania" title="Repo Github du projet" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                        <a href="https://github.com/Korgmgn/Openclassrooms_Groupomania" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Groupomania</h3>
                     <p>Projet fullstack, création d'une Single Page Application pour un réseau social interne d'entreprise</p>

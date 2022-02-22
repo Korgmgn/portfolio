@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="footer-background">
             <footer className="footer">
-                Coucou !
+                Made with React
             </footer>
         </div>
     )
