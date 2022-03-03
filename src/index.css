@@ -35,11 +35,11 @@ body, ul {
     padding: 10px 0;
 }
 
-.header--name, .nav--list, .main--title, .project-card--description > h3, .footer {
+.header--name, .nav--list, .main--title, .project-card--description > h3, .main--contact h2, .main--form__button, .footer {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.header--jobname, .header--description, .main--description, .project-card--description {
+.header--jobname, .header--description, .main--description, .project-card--description, .main--form__input {
     font-family: 'Merriweather', serif;
 }
 
@@ -64,7 +64,7 @@ body, ul {
     animation-delay: 2000ms;
 }
 
-.project-card--description {
+.project-card--description, .main--contact {
     animation: fade-in 1000ms both;
     animation-delay: 2500ms;
 }
@@ -167,6 +167,38 @@ body, ul {
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+.main--contact {
+    padding: 30px 0;
+}
+
+.main--form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 95%;
+    margin: auto;
+}
+
+.main--form__input {
+    padding: 5px 0;
+    margin: 10px 0;
+    text-indent: 5px;
+    color: black;
+    font-size: 1.05em;
+}
+
+.main--form__button {
+    color: black;
+    font-size: 1.05em;
+    height: 50px;
+    width: 120px;
+    align-self: center;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 .footer-background {
