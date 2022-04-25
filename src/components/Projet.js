@@ -105,7 +105,8 @@ function Projects() {
                     <div className="project-card--description__github-icon">
                         <a href="https://github.com/Korgmgn/react_todo-list" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
-                    <h3>ToDo List</h3>
+                    <h3>To Do List</h3>
+                    <p>[Finitions en cours]</p>
                     <p>Liste de tâches avec fonctionnalités d'ajout de tâches, cocher les tâches terminées, filtrer la liste avec les boutons filtres ou en utilisant la barre de recherche.</p>
                     <p><span className="bold-font">Objectifs: </span>Création d'une application React.js en utilisant tous les concepts fondamentaux du framework, tels que le state management, la création de composants, la transmission des props aux composants enfants, l'utilisation des events et la création de custom events.</p>
                     <p>React.js</p>
