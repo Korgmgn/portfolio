@@ -121,6 +121,7 @@ body, ul {
     flex: 1;
     flex-basis: 25%;
     min-width: 280px;
+    max-width: 450px;
     height: fit-content;
     margin: 10px;
 }

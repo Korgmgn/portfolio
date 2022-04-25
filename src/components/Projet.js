@@ -16,8 +16,8 @@ function Projects() {
                     </div>
                     <h3>Réservia</h3>                                    
                     <p>Intégration de maquette d'un site de réservation en ligne.</p>
-                    <p><span className="bold-font">Objectifs: </span>Intégrer fidèlement une maquette en responsive, utiliser flexbox et organiser les balises html</p>
-                    <p>HTML et CSS</p>
+                    <p><span className="bold-font">Objectifs: </span>Intégrer fidèlement une maquette en responsive, utiliser flexbox et organiser les balises html.</p>
+                    <p>HTML et CSS.</p>
                 </figcaption>
             </figure>
 
@@ -31,8 +31,8 @@ function Projects() {
                     </div>
                     <h3>OhMyFood</h3>
                     <p>Intégration de maquette d'un site culinaire</p>
-                    <p><span className="bold-font">Objectifs: </span>Intégrer fidèlement une maquette en responsive, créer des animations CSS et utiliser Sass (Méthode BEM et 7-1)</p>
-                    <p>HTML, CSS, Sass</p>
+                    <p><span className="bold-font">Objectifs: </span>Intégrer fidèlement une maquette en responsive, créer des animations CSS et utiliser Sass (Méthode BEM et 7-1).</p>
+                    <p>HTML, CSS, Sass.</p>
                 </figcaption>
             </figure>
 
@@ -45,9 +45,9 @@ function Projects() {
                         <a href="https://github.com/Korgmgn/Openclassrooms_ChouetteAgence" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Chouette Agence</h3>
-                    <p>Optimisation d'un site vitrine d'agence web (Fourni par Openclassrooms)</p>
-                    <p><span className="bold-font">Objectifs: </span>Utiliser des outils d'audit afin de repérer les problèmes liés au SEO, à l'accessibilité et aux performances, puis établir un second audit après le déploiement des correctifs</p>
-                    <p>GoogleLighthouse, GTMetrix, GoogleAnalytics</p>
+                    <p>Optimisation d'un site vitrine d'agence web (Fourni par Openclassrooms).</p>
+                    <p><span className="bold-font">Objectifs: </span>Utiliser des outils d'audit afin de repérer les problèmes liés au SEO, à l'accessibilité et aux performances, puis établir un second audit après le déploiement des correctifs.</p>
+                    <p>GoogleLighthouse, GTMetrix, GoogleAnalytics.</p>
                 </figcaption>
             </figure>
 
@@ -60,9 +60,9 @@ function Projects() {
                         <a href="https://github.com/Korgmgn/Openclassrooms_Kanap" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Kanap</h3>
-                    <p>Création des fonctionnalités pour un site marchand dynamique (Design et API fournis par Openclassrooms)</p>
-                    <p><span className="bold-font">Objectifs: </span>Créer les requêtes API, récupérer et afficher les données reçues, manipuler dynamiquement le DOM, vérifier les formulaires via regex</p>
-                    <p>Javascript vanilla</p>
+                    <p>Création des fonctionnalités pour un site marchand dynamique (Design et API fournis par Openclassrooms).</p>
+                    <p><span className="bold-font">Objectifs: </span>Créer les requêtes API, récupérer et afficher les données reçues, manipuler dynamiquement le DOM, vérifier les formulaires via regex.</p>
+                    <p>Javascript vanilla.</p>
                 </figcaption>
             </figure>
             
@@ -75,9 +75,9 @@ function Projects() {
                         <a href="https://github.com/Korgmgn/Openclassrooms_Piiquante" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Piiquante</h3>
-                    <p>Création d'une API pour une application permettant aux utilisateurs de mettre en ligne leurs sauces piquantes favorites (Frontend fourni par Openclassrooms)</p>
+                    <p>Création d'une API pour une application permettant aux utilisateurs de mettre en ligne leurs sauces piquantes favorites (Frontend fourni par Openclassrooms).</p>
                     <p><span className="bold-font">Objectifs: </span>Créer une API REST avec base de données noSQL, fonctionnalités CRUD et middleware d'authentification avec jeton chiffré.</p>
-                    <p>Express, Node.js, mongoDB, mongoose, jwt, multer</p>
+                    <p>Express, Node.js, mongoDB, mongoose, jwt, multer.</p>
                 </figcaption>
             </figure>
 
@@ -90,10 +90,25 @@ function Projects() {
                         <a href="https://github.com/Korgmgn/Openclassrooms_Groupomania" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
                     </div>
                     <h3>Groupomania</h3>
-                    <p>Projet fullstack, création d'une Single Page Application pour un réseau social interne d'entreprise</p>
+                    <p>Projet fullstack, création d'une Single Page Application pour un MVP de réseau social interne d'entreprise.</p>
                     <p><span className="bold-font">Objectifs: </span>Créer une API REST avec base de données SQL, fonctionnalités CRUD et middleware d'authentification avec jeton chiffré. 
-                    Créer les requêtes API, utiliser le framework afin d'afficher dynamiquement les données récupérées les afficher en créant ou en modifiant les composants</p>
-                    <p>Express, Node.js, mySQL, Sequelize, multer, jwt, Vue.js, axios</p>
+                    Créer les requêtes API, utiliser le framework afin d'afficher dynamiquement les données récupérées les afficher en créant ou en modifiant les composants.</p>
+                    <p>Express, Node.js, mySQL, Sequelize, multer, jwt, Vue.js, axios.</p>
+                </figcaption>
+            </figure>
+
+            <figure id="reacttodolist" className="project-card" >
+                <a href="https://react-todo-list-hz.netlify.app/" title="Voir la démo" target="_blank" rel='noreferrer'>
+                    <img className="project-card--img" src={require("../images/capture_react-todo-list.png")} alt="projet fullstack avec framework frontend, création d'API et base de données SQL"/>
+                </a>
+                <figcaption className="project-card--description">
+                    <div className="project-card--description__github-icon">
+                        <a href="https://github.com/Korgmgn/react_todo-list" title="Voir le code" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                    </div>
+                    <h3>ToDo List</h3>
+                    <p>Liste de tâches avec fonctionnalités d'ajout de tâches, cocher les tâches terminées, filtrer la liste avec les boutons filtres ou en utilisant la barre de recherche.</p>
+                    <p><span className="bold-font">Objectifs: </span>Création d'une application React.js en utilisant tous les concepts fondamentaux du framework, tels que le state management, la création de composants, la transmission des props aux composants enfants, l'utilisation des events et la création de custom events.</p>
+                    <p>React.js</p>
                 </figcaption>
             </figure>
 
