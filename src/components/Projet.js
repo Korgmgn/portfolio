@@ -6,7 +6,7 @@ function Projects() {
     return (
         <div className="main--projects">
 
-            <figure className="project-card" >
+            <figure id="reservia" className="project-card" >
                 <a href="https://korgmgn.github.io/Openclassroom_Reservia/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img"  src={require("../images/capture_reservia.png")} alt="projet intégration de maquette"/>
                 </a>
@@ -21,7 +21,7 @@ function Projects() {
                 </figcaption>
             </figure>
 
-            <figure className="project-card" >
+            <figure id="ohmyfood" className="project-card" >
                 <a href="https://korgmgn.github.io/Openclassrooms_OhMyFood/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_ohmyfood.png")} alt="projet animations css"/>
                 </a>
@@ -36,7 +36,7 @@ function Projects() {
                 </figcaption>
             </figure>
 
-            <figure className="project-card" >
+            <figure id="chouetteagence" className="project-card" >
                 <a href="https://korgmgn.github.io/Openclassrooms_ChouetteAgence/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_chouetteagence.png")} alt="projet optimisation SEO, performances et accessibilité"/>
                 </a>
@@ -51,7 +51,7 @@ function Projects() {
                 </figcaption>
             </figure>
 
-            <figure className="project-card" >
+            <figure id="kanap" className="project-card" >
                 <a href="https://kanap-hz.netlify.app/index.html" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_kanap.png")} alt="projet intégration de fonctionnalités pour site web dynamique"/>
                 </a>
@@ -66,7 +66,7 @@ function Projects() {
                 </figcaption>
             </figure>
             
-            <figure className="project-card" >
+            <figure id="piiquante" className="project-card" >
                 <a href="https://piiquante-hz.netlify.app/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_piiquante.png")} alt="projet création d'API REST, opérations CRUD et mongoDB"/>
                 </a>
@@ -81,7 +81,7 @@ function Projects() {
                 </figcaption>
             </figure>
 
-            <figure className="project-card" >
+            <figure id="groupomania" className="project-card" >
                 <a href="https://groupomania-hz.netlify.app/" title="Voir la démo" target="_blank" rel='noreferrer'>
                     <img className="project-card--img" src={require("../images/capture_groupomania.png")} alt="projet fullstack avec framework frontend, création d'API et base de données SQL"/>
                 </a>
